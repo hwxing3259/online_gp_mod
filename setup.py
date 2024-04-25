@@ -4,18 +4,18 @@ import sys
 
 _here = os.path.abspath(os.path.dirname(__file__))
 
-if sys.version_info[0] < 3:
-    with open(os.path.join(_here, 'README.rst')) as f:
-        long_description = f.read()
-else:
-    with open(os.path.join(_here, 'README.rst'), encoding='utf-8') as f:
-        long_description = f.read()
+# if sys.version_info[0] < 3:
+#     with open(os.path.join(_here, 'README.rst')) as f:
+#         long_description = f.read()
+# else:
+#     with open(os.path.join(_here, 'README.rst'), encoding='utf-8') as f:
+#         long_description = f.read()
 
 setup(
     name='online_gp',
-    version='alpha',
+    version='1.0.0',
     description=('Repo for Streaming GPs'),
-    long_description=long_description,
+    long_description=('Repo for Streaming GPs'),
     author='',
     author_email='',
     url='',
