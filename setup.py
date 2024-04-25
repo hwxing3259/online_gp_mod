@@ -13,9 +13,9 @@ else:
 
 setup(
     name='online_gp',
-    version='1.0.0',
+    version='alpha',
     description=('Repo for Streaming GPs'),
-    long_description=('Repo for Streaming GPs'),
+    long_description=long_description,
     author='',
     author_email='',
     url='',
